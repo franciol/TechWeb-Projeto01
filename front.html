@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Snip Text NotePad</title>
+</head>
+<link rel="stylesheet" type="text/css" href="frontCSS.css">
+<script src="frontjava.js"></script>
+<body>
+	<div class warps>
+		<div class="top_bar">
+			<td>
+				<tr><textarea id="Notas" name="Notas" placeholder="Notas"></textarea></tr>
+				<tr><textarea id="Tags" type="Text" name="Tags" placeholder="Tags"></textarea></tr>
+				<tr><input type="submit" name="submit" value="Send" onclick="return sendNote()"></tr>
+			</td>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div id="lines_notes" class="lines_notes">
+		<table>
+			<tr id="principla">
+				<th width="55%">Nota</th>
+				<th width="35%">tags</th>
+				<th width="5%">Edit</th>
+				<th width="5%">Delete</th>
+			</tr>
+		</table>
+		<table id="notesTable">
+			
+			
+		</table>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+div.top_bar {
+    width: 90%;
+    align-self: center;
+    background-color: grey;
+    position: fixed;
+    text-align: center; 
+    align-self: center;
+    vertical-align: middle;
+    height: 5%;
+    padding-top: 0.5%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+input{
+    width: 6%;
+    vertical-align: top;
+    height: 75%;
+    font-size: 80%;
+
+
+
+}
+textarea {
+    width: 45%;
+    vertical-align: top;
+    height: 65%;
+
+
+}
+
+div.lines_notes {
+    position: all;
+
+    background-color: darkgrey;
+    width: 99%;
+    color: black;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+body {
+    background-color: lightgrey;
+}
+table {
+    width: 99%;
+}
+tr {
+    text-align: left;
+}
+th {
+    height: 2px;
+    width: 55%;
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+
+button {
+    width: 98%;
+}
+div.wraps {
+    align-items: center;
+}
+
+#principla {
+    
+}
